@@ -68,5 +68,33 @@ To enforce corporate security standards, a custom device configuration policy wa
 
 ---
 
+### Lab Milestone: Mobile Device Management & Application Deployment (iOS/iPadOS)
+
+Successfully orchestrated and validated mobile device management capabilities within the `evilcorpLAB.onmicrosoft.com` tenant, focusing on user-targeted deployments and iOS lifecycle management.
+
+* **Tenant & Infrastructure Configuration:** 
+  - Configured Apple Push Notification service (APNs) integration to establish secure communication between Microsoft Intune and Apple mobile devices.
+  - Enrolled personal (unsupervised) iOS and iPadOS devices under test user accounts.
+* **Security & Device Policies:**
+  - Deployed iOS Device Restriction policies incorporating web filtering capabilities.
+* **App Deployment & Lifecycle Management:**
+  - Targeted and successfully deployed required productivity applications (including Zoom Workplace for Intune) to user groups (`IPAD USERS`).
+  - Validated the native iOS MDM prompt behavior for personal, unsupervised devices requiring user interaction.
+  - Verified remote device actions, bulk synchronization commands, and device check-in reporting via the Intune Admin Center and Company Portal apps.
+
+    ### Lab Validation Screenshots
+
+#### 1. Enrolled Device Inventory & Compliance Status
+*Overview of enrolled personal iOS and iPadOS devices in the Intune Admin Center showing active compliance states and last check-in timestamps.*  
+![Enrolled Device Inventory](assets/deviceview.jpg)
+
+#### 2. Native iOS MDM App Installation Prompt
+*Handling managed app deployments on personal, unsupervised iOS devices requiring user interaction.*  
+![iOS MDM App Installation Prompt](assets/IMG_8831.jpg)
+
+#### 3. Company Portal Web View & Deployment Status
+*Managing required app catalog items and checking device management compliance status via Company Portal.*  
+![Company Portal Web View](assets/IMG_8832.jpg)
+
 ### 💡 Key Takeaways
 This lab demonstrates the power of modern cloud endpoint management, highlighting how quickly an administrator can provision security baselines, establish trust with Apple's push infrastructure, and enforce corporate compliance across mobile endpoints.
